@@ -1,0 +1,117 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>albarran_etl</Database>
+    <Server>DANIEL\DANIEL01</Server>
+    <ConnectionString>Data Source=DANIEL\DANIEL01;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>4ZVPWcfDDd0UHrxZAoM33eUekNE=25-11-2024 19:44:2125-11-2024 13:22:22</TimeStamp>
+        <ID>
+          <String>Dim Albarran</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>f9Gfnpfuqpk/ZjmvXiOZaGMrGkU=25-11-2024 13:23:0925-11-2024 13:23:08</TimeStamp>
+        <ID>
+          <String>Dim Albarran</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>ptoRx8JM4UckDoEn7ooSrsjk4fQ=25-11-2024 19:45:1225-11-2024 19:45:11</TimeStamp>
+        <ID>
+          <String>Dim Albarran 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>i6YL1d5FF/IfpEl1GXmr7Pm9U84=25-11-2024 13:26:3625-11-2024 13:24:22</TimeStamp>
+        <ID>
+          <String>Dim Cliente</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>MkPITIyE04fbR/qtbNQfR69WsSc=25-11-2024 13:26:3625-11-2024 13:24:22</TimeStamp>
+        <ID>
+          <String>Dim Canal</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>etHQiBIU7ensHwv4RVYWld3vdr8=25-11-2024 13:26:3625-11-2024 13:24:22</TimeStamp>
+        <ID>
+          <String>Dim Producto</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>/zlWQfLbo7s/xmeqwbvsOPWyjj0=25-11-2024 13:26:3625-11-2024 13:24:22</TimeStamp>
+        <ID>
+          <String>Dim Tiempo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>oDU8XNGPYNd2o1LfLskNZ/Ri2rE=25-11-2024 13:26:3625-11-2024 13:24:22</TimeStamp>
+        <ID>
+          <String>Dim Sucursal</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>p70swiO+gJpUiN9BlRdBhVGxf9A=25-11-2024 13:26:3625-11-2024 13:24:22</TimeStamp>
+        <ID>
+          <String>Dim Vendedor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>89C2KLHyj995wJItZBKm47Eq844=25-11-2024 19:45:3025-11-2024 19:45:30</TimeStamp>
+        <ID>
+          <String>Dim Tiempo 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>cNmrOLTLNKUm5BR8IE5fM7TGSp0=25-11-2024 13:26:3625-11-2024 13:24:22aYgEpWMtKQeOi+FRpGTUuPeNTWg=25-11-2024 13:24:2225-11-2024 13:24:22</TimeStamp>
+        <ID>
+          <String>Dim Albarran</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>VGhSzOu7SYunmgpWmUA4G0wAGf4=25-11-2024 19:45:3025-11-2024 19:45:29pjqNPBfTjHTEqsc9ZgOyQ3nRX2g=25-11-2024 19:45:3025-11-2024 19:45:30</TimeStamp>
+        <ID>
+          <String>Dim Albarran 1</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>MKM249UlIjvFv9oIAgE2q4iY5KQ=25-11-2024 13:18:5025-11-2024 13:18:50</TimeStamp>
+      <ID>
+        <String>albarran_etl</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-11-25T22:45:36.77Z</LastDeployed>
+</DeploymentSnapshot>
